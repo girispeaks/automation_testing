@@ -1,0 +1,950 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "a registered user exists",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.a_registered_user_exists()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is on amazon login page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_is_on_amazon_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters username",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enters password",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user navigates to order page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_navigates_to_order_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-21T16:06:50.515Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_Url()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check previous Order details",
+        "description": "",
+        "id": "amazon-order-page;check-previous-order-details",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_close()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_logout(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user click on Order link",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_click_on_order_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "user checks the previous order page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_checks_the_previous_order_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "a registered user exists",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.a_registered_user_exists()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is on amazon login page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_is_on_amazon_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters username",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enters password",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user navigates to order page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_navigates_to_order_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-21T16:06:50.697Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_Url()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Check open order details",
+        "description": "",
+        "id": "amazon-order-page;check-open-order-details",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_close()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_logout(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "user click on Open Orders link",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_click_on_open_orders_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "user check the open order details",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_check_the_open_order_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "a registered user exists",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.a_registered_user_exists()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is on amazon login page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_is_on_amazon_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user enters username",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_username()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enters password",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_enters_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_clicks_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user navigates to order page",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_navigates_to_order_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-21T16:06:50.722Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.setUp_Url()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Check cancelled order details",
+        "description": "",
+        "id": "amazon-order-page;check-cancelled-order-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_close()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.AmazonHooks.tearDown_logout(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "user click on Cancelled Orders link",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_click_on_cancelled_orders_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "user check the cancelled order details",
+            "match": {
+              "location": "com.learn.cucumberPractice.stepDefinition.OrdersSteps.user_check_the_cancelled_order_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Order Page",
+    "description": "\t\t\t\tIn order the check my order details\n\t\t\t\tAs a registered user\n\t\t\t\tI want to specify the features of the order details page",
+    "id": "amazon-order-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/learn/cucumberPractice/feature/Order.feature",
+    "tags": []
+  }
+]
