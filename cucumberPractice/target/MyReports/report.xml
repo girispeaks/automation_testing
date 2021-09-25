@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.613">
-<testcase classname="Amazon Order Page" name="Check previous Order details" time="0.153">
-<system-out><![CDATA[Given a registered user exists..............................................passed
-Given user is on amazon login page..........................................passed
-When user enters username...................................................passed
-And user enters password....................................................passed
-And user clicks on login button.............................................passed
-Then user navigates to order page...........................................passed
-When user click on Order link...............................................passed
-Then user checks the previous order page....................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.73">
+<testcase classname="User Registration" name="User registration with different data" time="0.169">
+<system-out><![CDATA[Given user is on the registration page......................................passed
+When user enters following user details.....................................passed
+Then user registration must be successfull..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Amazon Order Page" name="Check open order details" time="0.014">
-<system-out><![CDATA[Given a registered user exists..............................................passed
-Given user is on amazon login page..........................................passed
-When user enters username...................................................passed
-And user enters password....................................................passed
-And user clicks on login button.............................................passed
-Then user navigates to order page...........................................passed
-When user click on Open Orders link.........................................passed
-Then user check the open order details......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Order Page" name="Check cancelled order details" time="0.011">
-<system-out><![CDATA[Given a registered user exists..............................................passed
-Given user is on amazon login page..........................................passed
-When user enters username...................................................passed
-And user enters password....................................................passed
-And user clicks on login button.............................................passed
-Then user navigates to order page...........................................passed
-When user click on Cancelled Orders link....................................passed
-Then user check the cancelled order details.................................passed
-]]></system-out>
+<testcase classname="User Registration" name="User registration with different data with columns" time="0.007">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on the registration page......................................passed
+When user enters following user details with columns........................undefined
+Then user registration must be successfull..................................skipped
+]]></failure>
 </testcase>
 </testsuite>
