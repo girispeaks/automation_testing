@@ -26,5 +26,17 @@ public class LoginPage {
 	public Boolean isForgotPasswordLinkPresent() {
 		return driver.findElement(linkText).isDisplayed();
 	}
+	
+	public void enterUserName(String userName) {
+		driver.findElement(emailId).sendKeys(userName);
+	}
+	
+	public void enterPwd(String pwd) {
+		driver.findElement(password).sendKeys(pwd);
+	}
+	
+	public void clickSignInBtn() {
+		driver.findElement(signInButton).click();
+	}
 
 }
