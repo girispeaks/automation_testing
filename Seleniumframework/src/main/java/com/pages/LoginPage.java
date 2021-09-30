@@ -38,5 +38,12 @@ public class LoginPage {
 	public void clickSignInBtn() {
 		driver.findElement(signInButton).click();
 	}
+	
+	public MyAccountsPage doLogin(String userName, String pwd) {
+		driver.findElement(emailId).sendKeys(userName);
+		driver.findElement(password).sendKeys(pwd);	
+		driver.findElement(signInButton).click();
+		return new MyAccountsPage(driver);
+		}
 
 }
