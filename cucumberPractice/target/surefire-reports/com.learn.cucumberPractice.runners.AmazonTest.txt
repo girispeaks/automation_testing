@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.learn.cucumberPractice.runners.AmazonTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.961 s - in com.learn.cucumberPractice.runners.AmazonTest

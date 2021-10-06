@@ -28,7 +28,7 @@ public class LoginPageSteps {
 
 	@Then("page title should be {string}")
 	public void page_title_should_be(String expectedTitle) {
-	    Assert.assertEquals(title, expectedTitle);
+	    Assert.assertEquals(expectedTitle, title);
 	}
 
 	@Then("forgot your password link should be displayed")
