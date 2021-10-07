@@ -50,17 +50,17 @@
 			<version>4.0.0-alpha-7</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<!--   <dependency>
+		 <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
+			<version>6.14.3</version>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>${cucumber.version}</version>
 			<scope>test</scope>
-		</dependency> -->
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -117,7 +117,7 @@
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<includes>
-						<include>**/*MyTestRunner.java</include>
+						<include>**/*TestNgRunner.java</include>
 					</includes>
 					<parallel>methods</parallel>
 					<useUnlimitedThreads>true</useUnlimitedThreads>
@@ -135,7 +135,7 @@
 						</goals>
 						<configuration>
 							<includes>
-								<include>**/MyTestRunner.java</include>
+								<include>**/*TestNgRunner.java</include>
 							</includes>
 							<parallel>methods</parallel>
 							<threadCount>4</threadCount>

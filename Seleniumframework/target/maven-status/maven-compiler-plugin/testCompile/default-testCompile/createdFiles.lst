@@ -1,4 +1,5 @@
-com/qa/stepdefinitions/LoginPageSteps.class
-AppHooks/ApplicationHooks.class
-com/qa/stepdefinitions/MyAccountsPageSteps.class
+parallel/TestNgRunner.class
+parallel/LoginPageSteps.class
+parallel/MyAccountsPageSteps.class
+parallel/ApplicationHooks.class
 testRunners/MyTestRunner.class
