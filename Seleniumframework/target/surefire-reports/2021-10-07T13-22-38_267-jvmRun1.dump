@@ -1,4 +1,4 @@
-# Created at 2021-10-06T14:59:40.727
+# Created at 2021-10-07T13:22:40.440
 java.lang.NoSuchMethodError: 'void org.testng.xml.XmlSuite.setParallel(java.lang.String)'
 	at org.apache.maven.surefire.testng.conf.TestNGMapConfigurator.configure(TestNGMapConfigurator.java:71)
 	at org.apache.maven.surefire.testng.conf.TestNG510Configurator.configure(TestNG510Configurator.java:40)

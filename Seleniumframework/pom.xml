@@ -5,11 +5,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.learn</groupId>
-	<artifactId>automation</artifactId>
+	<groupId>Seleniumframework</groupId>
+	<artifactId>Seleniumframework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>automation</name>
+	<name>Seleniumframework</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -50,7 +50,7 @@
 			<version>4.0.0-alpha-7</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+		<!--   <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
@@ -60,7 +60,7 @@
 			<artifactId>cucumber-testng</artifactId>
 			<version>${cucumber.version}</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -117,12 +117,32 @@
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<includes>
-						<include>**/MyTestRunner.java</include>
+						<include>**/*MyTestRunner.java</include>
 					</includes>
 					<parallel>methods</parallel>
-					<threadCount>4</threadCount>
-					<useUnlimitedThreads>false</useUnlimitedThreads>
+					<useUnlimitedThreads>true</useUnlimitedThreads>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<include>**/MyTestRunner.java</include>
+							</includes>
+							<parallel>methods</parallel>
+							<threadCount>4</threadCount>
+							<perCoreThreadCount>true</perCoreThreadCount>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 			</plugins>
 		</pluginManagement>
