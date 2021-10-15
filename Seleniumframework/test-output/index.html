@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts title page&quot;, &quot;Optional[My Accounts page feature]&quot;)">runScenario("Accounts title page", "Optional[My Accounts page feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login with correct credentials", "Optional[Login page feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login with correct credentials", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts section count&quot;, &quot;Optional[My Accounts page feature]&quot;)">runScenario("Accounts section count", "Optional[My Accounts page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -131,7 +122,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts section count&quot;, &quot;Optional[My Accounts page feature]&quot;)">runScenario("Accounts section count", "Optional[My Accounts page feature]")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="parallel.TestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Accounts title page&quot;, &quot;Optional[My Accounts page feature]&quot;)">runScenario("Accounts title page", "Optional[My Accounts page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -146,62 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">parallel.TestNgRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Accounts title page&quot;, &quot;Optional[My Accounts page feature]&quot;)">
-                  </a> <!-- runScenario("Accounts title page", "Optional[My Accounts page feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Accounts title page", "Optional[My Accounts page feature]")</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:26)
-	at parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:28)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Login with correct credentials", "Optional[Login page feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with correct credentials", "Optional[Login page feature]")</span>
-                  <div class="stack-trace">java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.WebDriverException
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:210)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:26)
-	at parallel.ApplicationHooks.launchBrowser(ApplicationHooks.java:28)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -210,10 +145,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login with correct credentials", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with correct credentials", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
                   </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Accounts section count&quot;, &quot;Optional[My Accounts page feature]&quot;)">
+                  </a> <!-- runScenario("Accounts section count", "Optional[My Accounts page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Accounts section count", "Optional[My Accounts page feature]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -230,10 +185,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Accounts section count&quot;, &quot;Optional[My Accounts page feature]&quot;)">
-                  </a> <!-- runScenario("Accounts section count", "Optional[My Accounts page feature]") -->
+                  <a name="runScenario(&quot;Accounts title page&quot;, &quot;Optional[My Accounts page feature]&quot;)">
+                  </a> <!-- runScenario("Accounts title page", "Optional[My Accounts page feature]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Accounts section count", "Optional[My Accounts page feature]")</span>
+                  <span class="parameters">("Accounts title page", "Optional[My Accounts page feature]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -243,7 +198,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/nl/lwcyy7fx5_5_ml1qv227brzw0000gn/T/testng-eclipse-632132207/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/nl/lwcyy7fx5_5_ml1qv227brzw0000gn/T/testng-eclipse-862844555/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -304,23 +259,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'parallel.TestNgRunner')
-data.setCell(0, 3, 29764);
+data.setCell(0, 3, 42745);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'parallel.TestNgRunner')
-data.setCell(1, 3, 27959);
+data.setCell(1, 3, 35960);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'parallel.TestNgRunner')
-data.setCell(2, 3, 27182);
+data.setCell(2, 3, 34775);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'parallel.TestNgRunner')
-data.setCell(3, 3, 21630);
+data.setCell(3, 3, 19294);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'parallel.TestNgRunner')
-data.setCell(4, 3, 21629);
+data.setCell(4, 3, 18973);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -357,32 +312,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
-                <span class="method-start">981 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">runScenario("Forgot password link", "Optional[Login page feature]")</span>
-                <span class="method-start">981 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
-                <span class="method-start">981 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Accounts title page", "Optional[My Accounts page feature]")</span>
-                <span class="method-start">982 ms</span>
+                <span class="method-start">1023 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Accounts section count", "Optional[My Accounts page feature]")</span>
-                <span class="method-start">983 ms</span>
+                <span class="method-start">1023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Accounts title page", "Optional[My Accounts page feature]")</span>
+                <span class="method-start">1023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
+                <span class="method-start">1023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
+                <span class="method-start">1023 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">30749 ms</span>
+                <span class="method-start">43783 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
