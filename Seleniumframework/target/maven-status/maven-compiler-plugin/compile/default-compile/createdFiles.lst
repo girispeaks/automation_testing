@@ -1,6 +1,9 @@
 com/qa/util/Constants.class
-com/pages/LoginPage.class
 com/qa/util/ElementUtil.class
+com/pages/LoginPage.class
+com/qa/util/FrameworkConstants.class
 com/pages/MyAccountsPage.class
+com/testDataReader/TestDataReader.class
 com/qa/util/ConfigReader.class
+com/testDataReader/HeaderRow.class
 com/qa/factory/DriverFactory.class

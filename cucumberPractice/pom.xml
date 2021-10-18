@@ -117,12 +117,33 @@
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<includes>
-						<include>**/ParallelRun.java</include>
+						<include>**/*AmazonRunner.java</include>
 					</includes>
-					<parallel>methods</parallel>
-					<threadCount>4</threadCount>
-					<useUnlimitedThreads>false</useUnlimitedThreads>
+					<parallel>all</parallel>
+					<threadCountMethods>30</threadCountMethods>
+					<useUnlimitedThreads>true</useUnlimitedThreads>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<include>**/*AmazonRunner.java</include>
+							</includes>
+							<parallel>methods</parallel>
+							<threadCount>4</threadCount>
+							<perCoreThreadCount>true</perCoreThreadCount>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 			</plugins>
 		</pluginManagement>

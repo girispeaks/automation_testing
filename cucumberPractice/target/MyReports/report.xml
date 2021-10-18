@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.586">
+    <testcase classname="User Registration" name="User registration with different data" time="0.132">
+        <system-out>
+            <![CDATA[Given user is on the registration page......................................passed
+When user enters following user details.....................................passed
+Then user registration must be successfull..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User Registration" name="User registration with different data with columns" time="0.01">
+        <system-out>
+            <![CDATA[Given user is on the registration page......................................passed
+When user enters following user details with columns........................passed
+Then user registration must be successfull..................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

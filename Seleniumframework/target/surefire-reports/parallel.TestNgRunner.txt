@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: parallel.TestNgRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.379 s - in parallel.TestNgRunner
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.853 s - in parallel.TestNgRunner
