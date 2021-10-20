@@ -61,7 +61,10 @@ public class DriverFactory {
 		//Code to run in local
 		/*if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
+			
+			
 			tlWebDriver.set(new ChromeDriver());
+			
 		} else
 			if(browser.equals("firefox")) {
 				WebDriverManager.firefoxdriver().setup();
